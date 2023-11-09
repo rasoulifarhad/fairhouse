@@ -25,3 +25,70 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+ng new fairhouse
+
+### create componnent 
+
+ng generate component housing-listng
+
+### create folder 
+
+_guards
+_helpers
+_model
+_services
+
+### create class 
+
+ng g class 
+ng g d _model/user
+
+### create service 
+
+ng g service _services/auth
+ng g service _services/event
+
+### Guard 
+ng g guard  _guards/auth
+
+### interceptor
+ng generate interceptor _helpers/error
+ng generate interceptor _helpers/jwt
+ng generate interceptor _helpers/fake-backend
+
+### create routing
+ng generate m app-routing
+
+### component
+
+ng g c login
+
+#### interface 
+
+ng g interface
+
+
+
+    app-shell
+    application
+    class
+    component
+    config
+    directive
+    enum
+    environments
+    guard
+    interceptor
+    interface
+    library
+    module
+    pipe
+    resolver
+    service
+    service-worker
+    web-worker
+
+
+
